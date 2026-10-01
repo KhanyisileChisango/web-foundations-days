@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About QuickNotes</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <h1>QuickNotes</h1>
+      <p>Capture ideas before they disappear</p>
+      <nav id="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
-      <h1>QuickNotes</h1>
-      <p>Capture ideas before they disappear</p>
     </header>
 
     <main>
@@ -36,7 +37,7 @@
 
       <section>
         <h2>Features</h2>
-        <ul>
+        <ul class="features">
           <li><b>Create Notes</b> - Type and Save new notes.</li>
           <li>
             <b>View Notes</b> - All your saved notes are displayed for easy
@@ -47,7 +48,7 @@
 
       <section>
         <h2>Keyboard Shortcuts</h2>
-        <table>
+        <table class="keyboard-shortcuts-table">
           <tr>
             <th>Shortcut</th>
             <th>Action</th>
@@ -106,8 +107,8 @@
       </section>
 
       <footer>
-      <p>&copy; 2026 Quicknotes. Built during Web Foundations</p>
-    </footer>
+        <p>&copy; 2026 Quicknotes. Built during Web Foundations</p>
+      </footer>
     </main>
   </body>
 </html>
